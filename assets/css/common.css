@@ -1,0 +1,67 @@
+
+
+.wrapper{
+    min-width: 1234px;
+}
+
+
+.inner{
+    width: 1152px;
+    margin: 0 auto;
+}
+
+.blind{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    margin: -1px;
+}
+
+.header .inner1 .logo a,
+.header .inner2 .serch-area .search-engine .btn-submit::before,
+.inner4 .link-more,
+.sc-news .link-all::after,
+.sc-banner .swiper .btn-nav,
+.footer .group-info .call-area{
+    background-image: url(../img/sp.png);
+    background-size: 300px;
+    background-repeat: no-repeat;
+}
+
+.footer .group-link .sns-area .sns{
+    background-image: url(../img/sp4-footer.png);
+    background-size: 175px;
+    background-repeat: no-repeat;
+}
+
+.sc-main .tab-nav .btn-nav::before{
+    background-image: url(../img/sp3.png);
+    background-size: 300px;
+    background-repeat: no-repeat;
+}
+
+.sc-service .service-list .service-item .service::before{
+    background-image: url(../img/service.png);
+    background-size: 1200px;
+    background-repeat: no-repeat;
+}
+
+.sc-service .group-title .direct-area .link{
+    background-image: url(../img/sp2.png);
+    background-size: 160px;
+    background-repeat: no-repeat;
+}
+
+.sc-info .info-list .info-item a::before{
+    background-image: url(../img/sp99.png);
+    background-size: 315px;
+    background-repeat: no-repeat;
+}
+
+.headline{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.35em;
+}
